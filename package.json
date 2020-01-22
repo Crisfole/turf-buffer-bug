@@ -1,5 +1,5 @@
 {
-  "name": "@todo/set-appname",
+  "name": "turf-buffer-bug",
   "version": "0.0.1",
   "scripts": {
     "prebuild": "npm run clean",
@@ -27,5 +27,7 @@
     "sirv-cli": "^1.0.0-next.2",
     "svelte": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@turf/buffer": "^5.1.5"
+  }
 }

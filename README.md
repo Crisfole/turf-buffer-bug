@@ -1,24 +1,11 @@
-# Base Rollup/Svelte/Sass Starter Template
+# Demo of Turf-Buffer Bug
 
-A template for rollup, svelte, and sass.
+A demo of the turf-buffer bug w/ rollup
 
-## Getting Started:
+## Seeing the Bug:
 
-1. Clone Template with degit.
-2. Update package.json
-  1. Set "name" in package.json.
-  2. Replace Default PORT in package.json 'start' script (`${PORT:-7000}`)
-3. Update index.html
-  1. If you want a font other than Roboto update (or delete) the Google Fonts `<link>`.
-  2. Create each a file in 'src/assets' for each favicon referenced in index.html.
-  3. Delete unwanted linked assets or meta tags.
-  3. Delete TODOs.
-4. Update app.scss
-  1. If you've changed the font in index.html, update app.scss to match.
-  2. Delete TODOs.
-5. Run `npm install`.
-6. Run `git init` and `git add remote origin URL_TO_ORIGIN` (fix URL first).
-7. Run `git commit -m 'Initial Commit'
+1. `npm install`
+2. `npm run dev`
 
 ## Using:
 

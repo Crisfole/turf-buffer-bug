@@ -1,3 +1,3 @@
-import App from './components/App.svelte';
+import buffer from '@turf/buffer';
 
-const app = window.app = new App({ target: document.body, props: {} });
+console.log(buffer);
